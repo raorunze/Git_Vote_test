@@ -1,14 +1,3 @@
-package com.action;
-
-import com.entity.VoteUser;
-import com.opensymphony.xwork2.ActionSupport;
-import com.service.IUserService;
-import javax.servlet.http.HttpServletRequest;
-import org.apache.struts2.interceptor.ServletRequestAware;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Controller;
-
 @SuppressWarnings("serial")
 @Controller("registerAction")
 @Scope("prototype")
